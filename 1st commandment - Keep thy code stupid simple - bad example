@@ -1,0 +1,19 @@
+public boolean isTrue(boolean myBool){
+    if(myBool){
+        return true;
+    }else{
+        return false;
+    }
+}
+
+public Map<Id,Contact> getContactMap(){
+    Map<Id,Contact> contactMap = new Map<Id,Contact>();
+    
+    List<Contact> contacts = [Select Id From Contact];
+    if(contacts != null && contacts.size() > 0 && !contacts.isEmpty()){
+        for(Integer i=0; i < contacts.size(); i++){
+            contactMap.put(contacts.get(i).Id,contacts.get(i));
+        }
+    }
+    return contactMap;
+}
