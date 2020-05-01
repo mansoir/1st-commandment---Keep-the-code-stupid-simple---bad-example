@@ -1,1 +1,1 @@
-# 1st-commandment---Keep-the-code-stupid-simple---bad-example
+Keep-the-code-stupid-simple---bad-example
