@@ -1,1 +1,1 @@
-<h1>Keep-the-code-stupid-simple---bad-example</h1>
+<h1>Keep-it-stupid-simple{KISS}---bad-example</h1>
