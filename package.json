@@ -20,6 +20,6 @@
   "dependencies": {
     "env2": "^2.2.0",
     "pg": "^7.4.0",
-    "request": "^2.83.0"
+    "request": "^2.88.2"
   }
 }
